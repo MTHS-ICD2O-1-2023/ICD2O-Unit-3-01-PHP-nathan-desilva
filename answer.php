@@ -42,7 +42,7 @@
 
         // output
         echo "<br />";
-        echo "The Area is: " . round($area, 2) . " mm²";
+        echo "The Area is: " . $area . " mm²";
         echo "<br />";
 
         ?>
