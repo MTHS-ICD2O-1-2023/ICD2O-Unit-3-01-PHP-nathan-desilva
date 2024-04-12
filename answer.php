@@ -28,7 +28,7 @@
         <img src="./images/trapezoid.svg" alt="trapezoid" width="250" />
       </div>
       <div class="page-content-php">
-        <div name="area-of-triangle">
+        <div name="area-of-trapezoid">
           <div class="mdl-layout__header-row">
             <br />
         <?php

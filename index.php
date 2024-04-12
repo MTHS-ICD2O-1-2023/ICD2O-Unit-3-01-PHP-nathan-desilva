@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8" />
   <meta name="description" content="Area of a Trapezoid, in PHP" />
@@ -16,7 +15,6 @@
   <link rel="manifest" href="site.webmanifest" />
   <title>Area of a Trapezoid, in PHP</title>
 </head>
-
 <body>
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -27,7 +25,7 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/trapezoid.svg" alt="income-tax" width="250" />
+        <img src="./images/trapezoid.svg" alt="trapezoid" width="250" />
       </div>
       <h3>Formula
         <br />
@@ -39,7 +37,6 @@
       <div class="page-content-php">
         <br />
         <form action="answer.php" method="POST">
-          <form action="#">
             A base:
             <div class="mdl-textfield mdl-js-textfield">
               <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="a-base">
@@ -48,8 +45,6 @@
             </div>
             mm
           </form>
-          <br />
-          <form action="#">
             B base:
             <div class="mdl-textfield mdl-js-textfield">
               <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="b-base">
@@ -59,7 +54,6 @@
             mm
           </form>
           <br />
-          <form action="#">
             Height:
             <div class="mdl-textfield mdl-js-textfield">
               <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="height">
@@ -68,6 +62,7 @@
             </div>
             mm
           </form>
+          <br />
           <br />
           <!-- Accent-colored raised button with ripple -->
           <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">
@@ -78,5 +73,4 @@
     </main>
   </div>
 </body>
-
 </html>
