@@ -15,7 +15,6 @@
   <link rel="manifest" href="site.webmanifest" />
   <title>Area of a Trapezoid, in PHP</title>
 </head>
-
 <body>
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -36,35 +35,6 @@
               A = [ (a + b) / 2 ] x h
             </h3>
             <br />
-            <h4>Please enter intergers for dimensions</h4>
-          </div>
-          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="a-base" />
-          <label class="mdl-textfield__label" for="a-base">Enter a number ...</label>
-          <span class="mdl-textfield__error">Input is not a number!</span>
-        </div>
-        mm
-        </form>
-        <form action="#">
-          b base:
-          <div class="mdl-textfield mdl-js-textfield">
-            <!--This is where they type in the answer-->
-            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="b-base" />
-            <label class="mdl-textfield__label" for="b-base">Enter a number ...</label>
-            <span class="mdl-textfield__error">Input is not a number!</span>
-          </div>
-          mm
-        </form>
-        <form action="#">
-          height:
-          <div class="mdl-textfield mdl-js-textfield">
-            <!--This is where they type in the answer-->
-            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="height" />
-            <label class="mdl-textfield__label" for="height">Enter a number ...</label>
-            <span class="mdl-textfield__error">Input is not a number!</span>
-          </div>
-          mm
-        </form>
-        <br />
         <?php
 
         $aBase = $_POST["a-base"];
