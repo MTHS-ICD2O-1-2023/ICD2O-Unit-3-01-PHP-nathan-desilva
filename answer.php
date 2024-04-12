@@ -30,10 +30,6 @@
       <div class="page-content-php">
         <div name="area-of-triangle">
           <div class="mdl-layout__header-row">
-            <h3>Formula
-              <br />
-              A = [ (a + b) / 2 ] x h
-            </h3>
             <br />
         <?php
 

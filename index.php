@@ -27,40 +27,52 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/income_tax.jpg" alt="income-tax" width="250" />
+        <img src="./images/trapezoid.svg" alt="income-tax" width="250" />
       </div>
+      <h3>Formula
+        <br />
+        <br ?>
+        A = [ (a + b) / 2 ] x h
+      </h3>
       <br />
       <div class="page-content">Please enter your employment information.</div>
       <div class="page-content-php">
+        <br />
         <form action="answer.php" method="POST">
-          <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="a-base">
-            <label class="mdl-textfield__label" for="a-base">A Base:</label>
-            <span class="mdl-textfield__error">Input is not a number!</span>
-          </div>
-          mm
-        </form>
-        <br />
-        <div class="mdl-textfield mdl-js-textfield">
-          <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="b-base">
-          <label class="mdl-textfield__label" for="b-base">B Base:</label>
-          <span class="mdl-textfield__error">Input is not a number!</span>
-        </div>
-        mm
-        </form>
-        <br />
-        <div class="mdl-textfield mdl-js-textfield">
-          <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="height">
-          <label class="mdl-textfield__label" for="height">Height:</label>
-          <span class="mdl-textfield__error">Input is not a number!</span>
-        </div>
-        mm
-        </form>
-        <br />
-        <!-- Accent-colored raised button with ripple -->
-        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">
-          Calculate
-        </button>
+          <form action="#">
+            A base:
+            <div class="mdl-textfield mdl-js-textfield">
+              <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="a-base">
+              <label class="mdl-textfield__label" for="a-base">A Base</label>
+              <span class="mdl-textfield__error">Input is not a number!</span>
+            </div>
+            mm
+          </form>
+          <br />
+          <form action="#">
+            B base:
+            <div class="mdl-textfield mdl-js-textfield">
+              <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="b-base">
+              <label class="mdl-textfield__label" for="b-base">B Base</label>
+              <span class="mdl-textfield__error">Input is not a number!</span>
+            </div>
+            mm
+          </form>
+          <br />
+          <form action="#">
+            Height:
+            <div class="mdl-textfield mdl-js-textfield">
+              <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="height">
+              <label class="mdl-textfield__label" for="height">Height</label>
+              <span class="mdl-textfield__error">Input is not a number!</span>
+            </div>
+            mm
+          </form>
+          <br />
+          <!-- Accent-colored raised button with ripple -->
+          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">
+            Calculate
+          </button>
         </form>
       </div>
     </main>
