@@ -35,7 +35,7 @@
         A = [ (a + b) / 2 ] x h
       </h3>
       <br />
-      <div class="page-content">Please enter your employment information.</div>
+      <div class="page-content">Please enter integers for dimensions:</div>
       <div class="page-content-php">
         <br />
         <form action="answer.php" method="POST">
