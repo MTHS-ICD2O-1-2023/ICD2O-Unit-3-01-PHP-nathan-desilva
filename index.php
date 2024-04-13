@@ -44,7 +44,7 @@
               <span class="mdl-textfield__error">Input is not a number!</span>
             </div>
             mm
-          </form>
+            <br />
             B base:
             <div class="mdl-textfield mdl-js-textfield">
               <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="b-base">
@@ -52,7 +52,6 @@
               <span class="mdl-textfield__error">Input is not a number!</span>
             </div>
             mm
-          </form>
           <br />
             Height:
             <div class="mdl-textfield mdl-js-textfield">
@@ -61,7 +60,6 @@
               <span class="mdl-textfield__error">Input is not a number!</span>
             </div>
             mm
-          </form>
           <br />
           <br />
           <!-- Accent-colored raised button with ripple -->

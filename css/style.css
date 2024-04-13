@@ -20,6 +20,11 @@
   padding-top: 20pt;
 }
 
+.mdl-layout__left {
+  padding-right: 500pt;
+  padding-top: 20pt;
+}
+
 .mdl-textfield__error {
   color: #fff;
 }
@@ -31,7 +36,7 @@
 }
 
 body {
-  background-color: rgb(85, 85, 85);
+  background-color: rgb(0, 174, 172);
 }
 
 img {

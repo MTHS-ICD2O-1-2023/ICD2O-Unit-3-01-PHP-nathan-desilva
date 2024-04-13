@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8" />
   <meta name="description" content="Area of a Trapezoid, in PHP" />
@@ -15,6 +16,7 @@
   <link rel="manifest" href="site.webmanifest" />
   <title>Area of a Trapezoid, in PHP</title>
 </head>
+
 <body>
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -31,8 +33,12 @@
         <div name="area-of-trapezoid">
           <div class="mdl-layout__header-row">
             <br />
+            <div class="mdl-layout__content">
+            </div>
+            <div class= "mdl-layout__left">
         <?php
 
+        // input
         $aBase = $_POST["a-base"];
         $bBase = $_POST["b-base"];
         $height = $_POST["height"];
@@ -41,11 +47,14 @@
         $area = (($aBase + $bBase) / 2) * $height;
 
         // output
+        echo "If Base A is: " . $aBase . " and Base B is: " . $bBase . " and the height is: " . $height . ". ";
         echo "<br />";
-        echo "The Area is: " . $area . " mm²";
+        echo "<br />";
+        echo "Then the Area is: " . $area . " mm²";
         echo "<br />";
 
         ?>
+        </div>
       </div>
   </div>
   </main>
