@@ -23,6 +23,7 @@
 .mdl-layout__left {
   padding-right: 500pt;
   padding-top: 20pt;
+  font-size: 1.5rem;
 }
 
 .mdl-textfield__error {
