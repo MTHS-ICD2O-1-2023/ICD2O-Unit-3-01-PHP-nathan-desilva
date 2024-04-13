@@ -47,7 +47,7 @@
         $area = (($aBase + $bBase) / 2) * $height;
 
         // output
-        echo "If Base A is: " . $aBase . " and Base B is: " . $bBase . " and the height is: " . $height . ". ";
+        echo "If Base A is " . $aBase . " and Base B is " . $bBase . " and the height is " . $height . ". ";
         echo "<br />";
         echo "<br />";
         echo "Then the Area is: " . $area . " mm²";
