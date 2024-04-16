@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8" />
   <meta name="description" content="Area of a Trapezoid, in PHP" />
@@ -15,6 +16,7 @@
   <link rel="manifest" href="site.webmanifest" />
   <title>Area of a Trapezoid, in PHP</title>
 </head>
+
 <body>
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -37,29 +39,29 @@
       <div class="page-content-php">
         <br />
         <form action="answer.php" method="POST">
-            A base:
-            <div class="mdl-textfield mdl-js-textfield">
-              <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="a-base">
-              <label class="mdl-textfield__label" for="a-base">A Base</label>
-              <span class="mdl-textfield__error">Input is not a number!</span>
-            </div>
-            mm
-            <br />
-            B base:
-            <div class="mdl-textfield mdl-js-textfield">
-              <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="b-base">
-              <label class="mdl-textfield__label" for="b-base">B Base</label>
-              <span class="mdl-textfield__error">Input is not a number!</span>
-            </div>
-            mm
+          A base:
+          <div class="mdl-textfield mdl-js-textfield">
+            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="a-base">
+            <label class="mdl-textfield__label" for="a-base">A Base</label>
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+          mm
           <br />
-            Height:
-            <div class="mdl-textfield mdl-js-textfield">
-              <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="height">
-              <label class="mdl-textfield__label" for="height">Height</label>
-              <span class="mdl-textfield__error">Input is not a number!</span>
-            </div>
-            mm
+          B base:
+          <div class="mdl-textfield mdl-js-textfield">
+            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="b-base">
+            <label class="mdl-textfield__label" for="b-base">B Base</label>
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+          mm
+          <br />
+          Height:
+          <div class="mdl-textfield mdl-js-textfield">
+            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="height">
+            <label class="mdl-textfield__label" for="height">Height</label>
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+          mm
           <br />
           <br />
           <!-- Accent-colored raised button with ripple -->
@@ -71,4 +73,5 @@
     </main>
   </div>
 </body>
+
 </html>
